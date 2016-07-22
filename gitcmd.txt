@@ -1,0 +1,12 @@
+git
+git config --global user.name "Zhang Dan"
+git config --global user.mail "hongmaodan@gmail.com"
+git init
+git add file1 file2 file3
+git commit -m "change description"
+git status
+git diff filename
+git log
+git reset --hard HEAD^(or version number)
+git reflog
+
