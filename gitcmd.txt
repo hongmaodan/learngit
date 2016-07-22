@@ -21,6 +21,18 @@ git branch <name>
 git checkout <name>
 git checkout -b <name>
 git merge <name>
-git checkout -d <name>
+git branch -d <name>
 
 git merge --no-ff -m "commit description" dev
+git stash
+git stash list
+git stash apply stash@{0}
+git stash pop
+git branch -D <name>
+
+git remote -v
+git push origin <branch>
+git pull
+git checkout -b <branch> origin/<branch>
+git branch --set-upstream <branch> origion/<branch>
+
