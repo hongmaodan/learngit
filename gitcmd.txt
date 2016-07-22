@@ -9,4 +9,10 @@ git diff filename
 git log
 git reset --hard HEAD^(or version number)
 git reflog
+git checkout -- filename
+git reset HEAD filename
+git rm filename
+
+git remote add origin git@github.com:hongmaodan/learngit.git
+git push -u origin master
 
