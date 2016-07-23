@@ -36,3 +36,11 @@ git pull
 git checkout -b <branch> origin/<branch>
 git branch --set-upstream <branch> origion/<branch>
 
+git tag v1.0
+git tag v0.9 34652347
+git tag -a v0.8 -m "update content of v0.8"
+git tag
+git tag -d v0.9
+git push origin v1.0
+git push origin --tags
+git push origin :refs/tags/v0.9
